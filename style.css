@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(51, 46, 46);
+}
+
+.back
+{
+
+    position: relative;
+    height: 100vh;
+    margin-top: -65px;
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 69%;
+    opacity: 40%;
+
+}
+
+
+nav
+{
+    width: 80%;
+    min-width: 600px;
+
+    display: flex;
+    align-items: top;
+    margin: auto;
+}
+
+nav a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: rgb(191, 193, 196);
+    padding: 0 10px;
+    margin: 3%;
+    left: 30%;
+}
+
+
+a:hover
+{
+    color: white;
+}
+
+.logo
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    right: 48%;
+    margin-top: -5%;
+}
+
+@media screen and (max-width: 400px) {
+    .logo
+    {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        right: 60%;
+
+    }
+    nav a{
+        margin-top: 30px;
+    }
+
+  }
+  
+  @media screen and (min-width: 400px) ,(max-width: 1050 ) {
+    .logo
+    {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        right: 65%;
+        margin-top: -40px;
+
+    }
+
+
+
+
+    @media screen and (min-width: 1050px){
+        .logo
+        {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            right: 50%;
+            margin-top: -5%;
+    
+        }
+        nav a{
+
+            left: 30%;
+        }
+
+   
+    }
+}
